@@ -17,9 +17,7 @@ spec:
       containers:
       - name: server
         image: cvitoybamp/frontend-otus:1.0.0
-        ports:
-        - containerPort: 8080
-		readinessProbe:
+        readinessProbe:
           initialDelaySeconds: 10
           httpGet:
             path: "/_healthz"
