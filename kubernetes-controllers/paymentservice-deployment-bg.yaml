@@ -22,3 +22,8 @@ spec:
       containers:
       - name: server
         image: cvitoybamp/frontend-otus:1.0.0
+        env:
+          - name: PORT
+            value: "50051"
+          - name: DISABLE_PROFILER
+            value: "1"
