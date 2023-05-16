@@ -15,7 +15,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - name: frontend-server
+        - name: frontend
           image: cvitoybamp/frontend-otus:1.0.0
           readinessProbe:
             initialDelaySeconds: 10

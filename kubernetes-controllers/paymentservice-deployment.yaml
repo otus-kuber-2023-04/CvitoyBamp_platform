@@ -15,7 +15,7 @@ spec:
         app: paymentservice
     spec:
       containers:
-      - name: server
+      - name: paymentservice
         image: cvitoybamp/frontend-otus:1.0.0
         env:
           - name: PORT
